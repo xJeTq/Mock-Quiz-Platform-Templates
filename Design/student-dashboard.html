@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="styles\profdash-styles.css">
+    <script src="./javascript\profdash.js"></script>
+</head>
+<body>
+    <div class="banner">
+        <button class="logout">
+            <a href="auth-index.html" class="auth-link">Logout</a>
+        </button>
+    </div>
+    <div id="sidebar">
+        <div class="toggle-btn" onclick="show()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul>
+            <li>
+                <a href="#">Courses</a>
+                <ul class="dropdown">
+                    <li><a href="courses.html">Course</a></li>
+                    <li><a href="courses.html">Course</a></li>
+                    <li><a href="courses.html">Course</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="middle-image">
+        <img src="media\eas.jpg" alt="eas">
+    </div>
+</body>
+</html>
